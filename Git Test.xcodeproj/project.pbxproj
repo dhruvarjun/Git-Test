@@ -21,6 +21,7 @@
 		84215C7D18F9156B004BC872 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84215C5F18F9156A004BC872 /* UIKit.framework */; };
 		84215C8518F9156B004BC872 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84215C8318F9156B004BC872 /* InfoPlist.strings */; };
 		84215C8718F9156B004BC872 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84215C8618F9156B004BC872 /* Git_TestTests.m */; };
+		84215C9218F91F3B004BC872 /* DDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84215C9118F91F3B004BC872 /* DDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		84215C8218F9156B004BC872 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		84215C8418F9156B004BC872 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84215C8618F9156B004BC872 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		84215C9018F91F3B004BC872 /* DDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTest.h; sourceTree = "<group>"; };
+		84215C9118F91F3B004BC872 /* DDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		84215C6118F9156A004BC872 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				84215C9018F91F3B004BC872 /* DDTest.h */,
+				84215C9118F91F3B004BC872 /* DDTest.m */,
 				84215C6A18F9156A004BC872 /* DDAppDelegate.h */,
 				84215C6B18F9156A004BC872 /* DDAppDelegate.m */,
 				84215C6D18F9156B004BC872 /* Main.storyboard */,
@@ -253,6 +258,7 @@
 				84215C6C18F9156A004BC872 /* DDAppDelegate.m in Sources */,
 				84215C7218F9156B004BC872 /* DDViewController.m in Sources */,
 				84215C6818F9156A004BC872 /* main.m in Sources */,
+				84215C9218F91F3B004BC872 /* DDTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
